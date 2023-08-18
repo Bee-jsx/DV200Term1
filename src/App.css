@@ -1,0 +1,256 @@
+/* React Default Inclusions */
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Fonts */
+/* --Title Font */
+.Libre {
+  font-family: 'Libre Baskerville', serif;
+  src: url("./fonts/Libre_Baskerville/LibreBaskerville-Bold.ttf");
+}
+
+/* --Body Font */
+.Mulish {
+  font-family: 'Mulish', sans-serif;
+  src: url("./fonts/Mulish/static/Mulish-Black.ttf");
+}
+
+/* --Font Sizes */
+.Font_Title {
+  font-size: xx-large !important;
+}
+
+.Font_Subtitle {
+  font-size: x-large !important;
+}
+
+.Font_Body {
+  font-size: larger !important;
+}
+
+/* --Font Weights */
+.Bold {
+  font-weight: 900 !important;
+}
+
+/* --Font Colours */
+.white {
+  color: white;
+}
+
+/* Universal styling */
+/* --Body */
+.body_default {
+  background-color: #00BDFF;
+}
+
+/* --Display Types */
+.inline {
+  display: inline;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+/* Navbar */
+/* --Background Colour */
+.nav_bg {
+  width: 150px;
+  height: 300px;
+  margin-left: 10px;
+
+  background-color: #00BDFF;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  border-radius: 10px;
+  border-top-left-radius: 0px;
+}
+
+a:hover {
+  color: #0B1C3E !important;
+}
+
+/* Footer */
+/* --Div containing all elements */
+.Footer_Div {
+  width: 100%;
+  height: 35px !important;
+
+  padding-top: 4px;
+
+  background-color: Black;
+}
+
+/* --Text elements */
+.Footer_lbl {
+  margin-right: 50px;
+}
+
+/* Landing Page */
+
+.LandingDisplay {
+  background: #000C24;
+
+  height: 100%;
+  width: 100%;
+
+  padding-bottom: 150px;
+  padding-top: 25px;
+  padding-left: 100px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+/* --Title for top coin */
+.Crypto_Label_Left {
+  padding-left: 6%;
+
+  color: white;
+}
+
+/* --Title for second best coin */
+.Crypto_Label_Right {
+  padding-right: 38%;
+
+  color: white;
+}
+
+/* --Cards containing top two coins */
+.crypto_card {
+  width: 40%;
+
+  margin-top: 30px;
+  margin-left: 6%;
+
+  padding: 10px;
+
+  float: left;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25);
+
+  background: linear-gradient(115.47deg, #0B1C3E 0.46%, #0B1C3E 99.26%);
+
+  color: white;
+}
+
+.crypto_card_desc {
+  width: 86%;
+
+  margin-top: 20px;
+  margin-left: 6%;
+
+  padding-top: 0px;
+  padding-bottom: 25px;
+
+  float: left;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25);
+
+  background: linear-gradient(115.47deg, #0B1C3E 0.46%, #0B1C3E 99.26%);
+
+  color: white;
+}
+
+/* ----Image inside cards of top two coins' logos */
+.crypto_img {
+  width: auto;
+  height: 100px;
+
+  margin: 5px;
+}
+
+/* --Horizontal rule splitting summary */
+.landing_split {
+  width: 84%;
+
+  border: 1px solid grey;
+  border-radius: 7px;
+
+  margin: auto;
+  margin-left: 7%;
+}
+
+/* --Project summary */
+.Summary {
+  height: auto;
+  width: 80%;
+
+  margin: auto;
+
+  text-align: center;
+
+  margin-top: 25px;
+
+  padding-left: 70px;
+  padding-right: 100px;
+
+  color: white;
+}
+
+/* Comparison Page */
+.graph_card {
+  width: 600px;
+
+  margin-left: 10%;
+  padding-top: 30px;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25);
+
+  background: linear-gradient(115.47deg, #0B1C3E 0.46%, #0B1C3E 99.26%);
+
+  color: white;
+}
+
+select {
+  width: 100px;
+  background-color: #0B1C3E;
+
+  color: white;
+
+  border: none;
+}
